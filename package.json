@@ -1,0 +1,16 @@
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "n8n on Render",
+  "scripts": {
+    "start": "node keep-alive.js & n8n start",
+    "build": "echo 'No build step required'",
+    "health-check": "node health-check.js"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
